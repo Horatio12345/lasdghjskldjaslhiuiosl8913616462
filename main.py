@@ -55,10 +55,10 @@ async def on_voice_state_update(member_before, member_after):
         # The member was on a voice channel before the change
         if voice_channel_after == None:
             # The member is no longer on a voice channel after the change
-            msg = "%s - %s#%s# ***LEFT*** _%s_" % (member_after.display_name, member_after.name, member_after.discriminator, voice_channel_before.name)
+            msg = "%s - %s#%s ***LEFT*** _%s_" % (member_after.display_name, member_after.name, member_after.discriminator, voice_channel_before.name)
         else:
             # The member is still on a voice channel after the change
-            msg = "%s - %s#%s# ***SWITCHED*** _%s_ to _%s_" % (member_after.display_name, member_after.name, member_after.discriminator, voice_channel_before.name, voice_channel_after.name)
+            msg = "%s - %s#%s ***SWITCHED*** _%s_ to _%s_" % (member_after.display_name, member_after.name, member_after.discriminator, voice_channel_before.name, voice_channel_after.name)
     
     # Try to log the voice event to the channel
     try:
