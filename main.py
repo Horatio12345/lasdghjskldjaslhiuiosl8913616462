@@ -50,7 +50,7 @@ async def on_voice_state_update(member_before, member_after):
     
     if voice_channel_before == None:
         # The member was not on a voice channel before the change
-        msg = "%s - %s#%s ***JOINED*** _%s_" % (member_after.display_name, member_after.name, member_after.discriminator, voice_channel_after.name)
+        msg = "%s %s - %s#%s ***JOINED*** _%s_" % (member_after.default_avatar, member_after.display_name, member_after.name, member_after.discriminator, voice_channel_after.name)
     else:
         # The member was on a voice channel before the change
         if voice_channel_after == None:
