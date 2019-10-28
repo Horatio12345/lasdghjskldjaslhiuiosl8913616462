@@ -2,4 +2,4 @@
 CHANNEL_NAME = "voice-log"
 
 # The bot token
-BOT_TOKEN = "NDI3NTIyNzMxNjgxMTIwMjc3.DZlxHA.QBzpdZYk6H_ZELrwqLHEGROoAxA"
+BOT_TOKEN = "NDI3NTIyNzMxNjgxsasdsagsadshvbn,.fgsfgjfkLHEGROoAxA"
